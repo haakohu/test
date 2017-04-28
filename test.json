@@ -1,0 +1,28 @@
+{
+  "id": "1",
+  "categories": [
+    {
+      "id": "2",
+      "name": "water",
+      "categories": [
+        {"name": "pH",
+          "id": "3",
+          "value": "6.5"},
+        {"name": "redox",
+          "id": "4",
+          "value": "5.55"}
+      ]
+    },
+    { "name": "air",
+      "categories": [
+        {"name": "temperature",
+          "id": "5",
+          "value": "20.5"},
+        {"name": "humidity",
+          "id": "6",
+          "value": "250"}
+      ]
+    }
+  ]
+}
+
