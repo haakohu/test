@@ -1,28 +1,54 @@
 {
-  "id": "1",
-  "categories": [
+  "categories":[
     {
-      "id": "2",
-      "name": "water",
+      "name": "25m basseng",
+      "logoID": "25m",
+      "id": "1",
       "categories": [
-        {"name": "pH",
-          "id": "3",
-          "value": "6.5"},
-        {"name": "redox",
-          "id": "4",
-          "value": "5.55"}
+        {
+          "name": "vann",
+          "id": "water_drop",
+          "categories": [
+            {
+              "name": "temperatur",
+              "id": "3",
+              "logoID": "empty",
+              "low": 15,
+              "lowLow": 10,
+              "high": 25,
+              "highHigh": 30.5,
+              "measurementUnit": "ºC"
+            },
+            {
+              "name": "pH",
+              "id":"4",
+              "logoID": "empty",
+              "low": 3,
+              "lowLow": 2,
+              "high": 8,
+              "highHigh": 12,
+              "measurementUnit": "pH"
+            }
+          ]
+        }
       ]
     },
-    { "name": "air",
+    {
+      "name": "50m basseng",
+      "logoID": "50m",
+      "id": "5",
       "categories": [
-        {"name": "temperature",
-          "id": "5",
-          "value": "20.5"},
-        {"name": "humidity",
+        {
+          "name": "temperatur",
           "id": "6",
-          "value": "250"}
+          "logoID": "empty",
+          "low": 15,
+          "lowLow": 10,
+          "high": 25,
+          "highHigh": 30.5,
+          "measurementUnit": "C"
+        }
       ]
     }
   ]
 }
-
