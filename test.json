@@ -17,6 +17,7 @@
               "lowLow": 10,
               "high": 25,
               "highHigh": 30.5,
+              "value": 16,
               "measurementUnit": "ºC"
             },
             {
@@ -25,6 +26,7 @@
               "logoID": "empty",
               "low": 3,
               "lowLow": 2,
+              "value": 2.5,
               "high": 8,
               "highHigh": 12,
               "measurementUnit": "pH"
@@ -46,6 +48,7 @@
           "lowLow": 10,
           "high": 25,
           "highHigh": 30.5,
+          "value": 8,
           "measurementUnit": "C"
         }
       ]
